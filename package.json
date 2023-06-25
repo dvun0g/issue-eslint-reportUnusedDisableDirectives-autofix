@@ -1,0 +1,14 @@
+{
+	"name": "Issue Eslint Rule: reportUnusedDisableDirectives autofix",
+	"scripts": {
+		"lint": "eslint source/**/*.js --no-error-on-unmatched-pattern",
+		"lint:fix": "eslint source/**/*.js --fix --no-error-on-unmatched-pattern"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.43.0",
+		"eslint-config-airbnb": "^19.0.4"
+	}
+}

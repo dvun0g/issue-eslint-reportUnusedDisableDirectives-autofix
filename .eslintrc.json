@@ -1,0 +1,5 @@
+{
+	"extends": "airbnb",
+	"reportUnusedDisableDirectives": true,
+	"ignorePatterns": ["node_modules"]
+}
